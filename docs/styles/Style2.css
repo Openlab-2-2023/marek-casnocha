@@ -19,6 +19,10 @@ h2 {
 table {
     border: 0px solid black;
 }
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
 tr, td {
     background-color: rgb(174, 174, 174);
     border: 5px solid rgb(174, 174, 174);
