@@ -29,7 +29,7 @@ tr, td {
     border: 5px solid rgb(234, 234, 234);
 }
 a:link, a:visited {
-    color: #000000;
+    color: #fff700;
     -webkit-text-stroke: 0.3px #fff700;
     background-color: rgba(0, 0, 0, 0.9);
     padding: 10px;
