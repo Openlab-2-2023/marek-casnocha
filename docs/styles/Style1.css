@@ -52,7 +52,7 @@
             left: 0;
             width: 100%;
             padding: 20px 100px;
-            background: #2600ff;
+            background: #110099;
             display: flex;
             justify-content: space-evenly;
             align-items: center;
@@ -61,7 +61,7 @@
         .header a {
             font-size: 40px;
             color: #ffff00;
-            background-color: #000045;
+            background-color: #000077;
             border: 0px;
             border-radius: 20px;
             padding: 10px;
@@ -76,7 +76,7 @@
             font-size: 22px;
             color: #ffff00;
             -webkit-text-stroke: 0px #ffff00;
-            background-color: #000045;
+            background-color: #000077;
             border: 0px;
             border-radius: 20px;
             padding: 10px;

@@ -1,5 +1,5 @@
 head, body { 
-    border: 5px solid #0ea600;
+    border: 5px solid #bb3200;
     background-color: #999999;
     color: #000000;           
     font-size: large; 
@@ -52,7 +52,7 @@ p {
     left: 0;
     width: 100%;
     padding: 20px 100px;
-    background: #fcc00d;
+    background: #660000;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -60,21 +60,21 @@ p {
 }
 .header a {
     font-size: 40px;
-    color: #7700dd;
-    background-color: rgba(255, 140, 0, 1);
+    color: #ff8400;
+    background-color: #400000;
     padding: 10px;
     border: 0px;
     border-radius: 15px;
     -webkit-text-stroke: #00ff00;
 }
 .header a:hover, a:active {
-    color: #7700dd ;
+    color: #ff8400 ;
     stroke: 0px #00ff00 ;
     -webkit-text-stroke: #00ff00;
 }
 .navbar a {
     font-size: 22px;
-    color: #0065ff;
+    color: #cccc00;
     -webkit-text-stroke: 0px #00ff00;
 }
 .navbar a:hover, a:active {
