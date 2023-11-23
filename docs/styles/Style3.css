@@ -7,7 +7,7 @@ head, body {
 h1 {
     margin-top: 3cm;
     color: #ff8400;
-    font-size: 1.2cm;
+    font-size: 10vw;
     -webkit-text-stroke: 1.5px #000000;
     font-family: 'Times New Roman', Times, Georgia, serif;
     text-align: center;
@@ -51,7 +51,7 @@ p {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 100px;
+    padding: 20px 5px;
     background: #660000;
     display: flex;
     justify-content: space-evenly;
@@ -81,4 +81,7 @@ p {
     color: #00ffff;
     -webkit-text-stroke: 2px #00ffff;
     transition: 0.6s;
+}
+video {
+    max-width: 100%;
 }
