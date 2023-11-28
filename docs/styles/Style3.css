@@ -51,7 +51,7 @@ p {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 5px;
+    padding: 20px 2px;
     background: #660000;
     display: flex;
     justify-content: space-evenly;
@@ -59,7 +59,7 @@ p {
     z-index: 80;
 }
 .header a {
-    font-size: 40px;
+    font-size: 30px;
     color: #ff8400;
     background-color: #400000;
     padding: 10px;
@@ -73,8 +73,12 @@ p {
     -webkit-text-stroke: #00ff00;
 }
 .navbar a {
-    font-size: 22px;
+    font-size: 18px;
     color: #cccc00;
+    background-color: #400000;
+    padding: 6px;
+    border: 0px;
+    border-radius: 15px;
     -webkit-text-stroke: 0px #00ff00;
 }
 .navbar a:hover, a:active {

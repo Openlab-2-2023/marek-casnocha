@@ -13,7 +13,8 @@
             text-align: center;
         }
         h2 {
-            color: #990000;
+            color: #ee0000;
+            -webkit-text-stroke: 1.5px #000000;
             text-align: center;
             font-family: Arial, Helvetica, sans-serif;
         }
@@ -51,7 +52,7 @@
             top: 0;
             left: 0;
             width: 100%;
-            padding: 20px 5px;
+            padding: 20px 2px;
             background: #110099;
             display: flex;
             justify-content: space-evenly;
@@ -59,7 +60,7 @@
             z-index: 80;
         }
         .header a {
-            font-size: 40px;
+            font-size: 30px;
             color: #ffff00;
             background-color: #000077;
             border: 0px;
@@ -73,13 +74,14 @@
             -webkit-text-stroke: 0px #ffff00;
         }
         .navbar a {
-            font-size: 22px;
+            
+            font-size: 18px;
             color: #ffff00;
             -webkit-text-stroke: 0px #ffff00;
             background-color: #000077;
             border: 0px;
-            border-radius: 20px;
-            padding: 10px;
+            border-radius: 15px;
+            padding: 6px;
         }
         .navbar a:hover, a:active {
             color: #ff0000;
