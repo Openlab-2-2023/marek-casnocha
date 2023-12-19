@@ -74,6 +74,15 @@
         }
         .adam[type=radio] {
             margin-left: 35vw;
+        }
+        .adam[type=text] {
+            margin-left: 35vw;
+        }
+        .adam[type=submit] {
+            margin-left: 10vw;
+        }
+        .jaro[type=radio] {
+                margin-right: 35vw;
             
         }
         .header {

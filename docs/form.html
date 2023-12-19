@@ -18,12 +18,41 @@
     </header>
     <body>
         <h1> Form</h1>
-        <p class="formhead"> Do you know anything about the stick war series? </p>
-        <form>
+        <form id="form1">
+        <p class="formhead"> Do you know anything about the stick war series? </p>    
             <input class="adam" type="radio" id="yes" name="know_SW" value="yes">
             <label for="yes"> Yes </label>
             <input type="radio" id="no" name="know_SW" value="no">
-            <label for="no"> No </label>
+            <label class="jaro" for="no"> No </label>
+        <p class="formhead"> Do you find this website helpful?</p>
+            <input class="adam" type="radio" id="yes" name="web_help" value="yes">
+            <label for="yes"> Yes </label>
+            <input type="radio" id="no" name="web_help" value="no">
+            <label class="jaro" for="no"> No </label>
+        <p class="formhead"> Did you find out anything new about Stick War 3?</p>
+            <input class="adam" type="radio" id="yes" name="SW3_find" value="yes">
+            <label for="yes"> Yes </label>
+            <input type="radio" id="no" name="SW3_find" value="no">
+            <label class="jaro" for="no"> No </label>
+        <p class="formhead"> Do you find the stats of units accurate?(on this website)</p>
+            <input class="adam" type="radio" id="yes" name="option1" value="yes">
+            <label for="yes"> Yes </label>
+            <input type="radio" id="no" name="option1" value="no">
+            <label class="jaro" for="no"> No </label>
+        <p class="formhead"> Would you recommend this website to your friends or other people?</p>
+            <input class="adam" type="radio" id="yes" name="option2" value="yes">
+            <label for="yes"> Yes </label>
+            <input type="radio" id="no" name="option2" value="no">
+            <label class="jaro" for="no"> No </label>
+        <p class="formhead"> If not, tell us how to improve this website!(leave blank if nothing)</p>
+            <input class="adam" type="text" id="heh" name="option3">
+        <p class="formhead"> What else would you like to see on this website?(leave blank if nothing more)</p>
+            <input class="adam" type="text" id="heh" name="option4">
+
+            <input class="adam" type="submit" value="Submit">
+            <input type="reset" value="Reset">
         </form>
+        <p style="color: red;"> Last updated: 19th December 2023
+        </p>
     </body>
 </html>
