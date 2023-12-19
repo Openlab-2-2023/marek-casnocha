@@ -60,6 +60,21 @@
             font-size: 20px;
             transition: 1s;
         }
+        .linkuss:link, .linkuss:visited {
+            background-color: #f44336;
+            color: white;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 0.7cm;
+        }
+        .linkuss:hover, .linkuss:active {
+            background-color: red;
+            -webkit-text-stroke: 0px red;
+            color: white !important;
+            font-size: 0.7cm;
+        }
         p {
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;          
         }
