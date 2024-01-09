@@ -31,7 +31,7 @@ tr, td {
 a:link, a:visited {
     color: #fff700;
     -webkit-text-stroke: 0.3px #fff700;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: #565656;
     padding: 10px;
     border: 0px;
     border-radius: 15px;
@@ -39,9 +39,8 @@ a:link, a:visited {
 }
 a:hover, a:active {
     color: #00ffff;
-    -webkit-text-stroke: 3px #00ffff;
-    font-size: 2cm;
-    transition: 0.4s;
+    -webkit-text-stroke: 2px #00ffff;
+    transition: 1s;
 }
 p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -89,3 +88,19 @@ p {
 video {
     max-width: 100%;
 }
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: transparent;
+    justify-content: center;
+  }
+  
+  .flex-container > div {
+    background-color: #787878;
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    border-radius: 45px;
+  }

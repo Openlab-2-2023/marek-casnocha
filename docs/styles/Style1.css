@@ -60,6 +60,22 @@
             font-size: 20px;
             transition: 1s;
         }
+        .linkusus:link, .linkusus:visited {
+            color: #ff00ff;
+            -webkit-text-stroke: 0.3px #ff00ff;
+            background-color: rgba(0, 0, 0, 1);
+            padding: 10px;
+            border: 0px;
+            border-radius: 15px;
+            font-size: 1cm;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .linkusus:hover, .linkusus:active {
+            color: #ff0000;
+            -webkit-text-stroke: 1px #ff0000;
+            font-size: 1cm;
+            transition: 1s;
+        }
         .linkuss:link, .linkuss:visited {
             background-color: #f44336;
             color: white;
@@ -143,3 +159,35 @@
         video {
             max-width: 100%;
         }
+        .flex-container {
+            display: flex;
+            background-color: transparent;
+            justify-content: center;
+            flex-wrap: wrap;
+          }
+          
+          .flex-container > div {
+            background-color: #040404;
+            width: 300px;
+            margin: 10px;
+            text-align: center;
+            line-height: 125px;
+            font-size: 30px;
+            border-radius: 45px;
+          }
+          .divis {
+            display: flex;
+            background-color: transparent;
+            justify-content: center;
+            flex-wrap: wrap;
+          }
+          
+          .divis > div {
+            background-color: #353535;
+            width: 900px;
+            margin: 10px;
+            text-align: center;
+            line-height: 425px;
+            font-size: 30px;
+            border-radius: 45px;
+          }
