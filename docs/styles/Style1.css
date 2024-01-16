@@ -18,6 +18,7 @@
             -webkit-text-stroke: 1.5px #000000;
             font-family: 'Times New Roman', Times, Georgia, serif;
             text-align: center; 
+            margin-bottom: 0px;
         }
         .ord {
             color: #ff4500;
@@ -77,7 +78,7 @@
         .linkusus:link, .linkusus:visited {
             color: #ff00ff;
             -webkit-text-stroke: 0.3px #ff00ff;
-            background-color: #232323;
+            background-color: #313131;
             padding: 10px;
             border: 0px;
             border-radius: 15px;
@@ -173,21 +174,38 @@
         video {
             max-width: 100%;
         }
+        .flex-containar {
+            display: flex;
+            flex-wrap: wrap;
+            background-color: transparent;
+            justify-content: center;
+          }
+          
+          .flex-containar > div {
+            background-color: #292929;
+            width: 250px;
+            margin: 10px;
+            text-align: center;
+            line-height: 75px;
+            font-size: 30px;
+            border-radius: 45px;
+          }
         .flex-container {
             display: flex;
             background-color: transparent;
             justify-content: center;
+            justify-content: space-evenly;
             flex-wrap: wrap;
           }
           
           .flex-container > div {
             background-color: #292929;
-            width: 250px;
-            margin: 10px;
+            width: 160px;
             text-align: center;
-            line-height: 125px;
+            line-height: 100px;
             font-size: 30px;
             border-radius: 45px;
+            margin-top: 60px;
           }
           .divis {
             background-color: #232323;
@@ -204,8 +222,7 @@
             border-radius: 30%;
             width: 10rem;
             height: 10rem;
-            margin: 30px;
-            margin-left: 45px;
+            margin: 5px;
             justify-content: center;
             border: none;
             background-color: #000000;
