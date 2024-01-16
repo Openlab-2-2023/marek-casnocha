@@ -208,11 +208,26 @@
             margin-top: 60px;
           }
           .divis {
-            background-color: #232323;
+            background-color: rgba(25, 25, 25, 0.95);
             padding-top: 20px;
             padding-bottom: 20px;
             border-radius: 30px;
             box-shadow: 0 0px 50px #ff00ff;
+          }
+          .division {
+            background-color: rgba(25, 25, 25, 0.95);
+            padding-top: 20px;
+            padding-bottom: 20px;
+            border-radius: 30px;
+            box-shadow: 0 0px 50px #ff00ff;
+            justify-content: space-between;
+            justify-content: center;
+            flex-wrap: wrap;
+            display: flex;
+          }
+          .division > section {
+            margin-right: 50px;
+            margin-left: 50px;
           }
           .circle {
             color:#000000;
