@@ -25,8 +25,8 @@ table.center {
     margin-right: auto;
 }
 tr, td {
-    background-color: rgb(174, 174, 174);
-    border: 5px solid rgb(174, 174, 174);
+    background-color: rgb(190, 190, 190);
+    border: 5px solid rgb(190, 190, 190);
 }
 a:link, a:visited {
     color: #9200cc;
@@ -133,4 +133,11 @@ video {
     border: 0px;
     border-radius: 15px;
     font-family: Arial, Helvetica, sans-serif;
+}
+.divis {
+    background-color: rgba(20, 20, 20, 0.95);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0px 50px #00ff00;
 }
